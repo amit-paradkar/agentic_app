@@ -27,7 +27,7 @@ class Settings(BaseSettings):
         default=None, description="API key for Comet ML and Opik services."
     )
     COMET_PROJECT: str = Field(
-        default="philoagents_course",
+        default="",
         description="Project name for Comet ML and Opik tracking.",
     )
 
